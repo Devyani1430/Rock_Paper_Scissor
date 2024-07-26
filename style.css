@@ -1,0 +1,86 @@
+
+
+.heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2, 2, 33);
+    color: azure;
+}
+
+h1 {
+    font-family: cursive;
+
+}
+
+.images{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    height: 13rem;
+    width: 13rem;
+    margin: 3rem;
+    border-radius: 50px;
+
+}
+
+#rock{
+    background-image: url("rock.jpg");
+    background-size: cover;
+}
+#rock:hover{
+    border: 3px solid black;
+    cursor: pointer;
+    box-shadow: 2px 2px;
+}
+#paper{
+    background-image: url("paper.jpg");
+    background-size: cover;
+    padding-right: 14px;
+}
+#paper:hover{
+    border: 3px solid black;
+    cursor: pointer;
+    box-shadow: 2px 2px;
+}
+#scissor{
+    background-image: url("scissor.jpg");
+    background-size: cover;
+}
+#scissor:hover{
+    border: 3px solid black;
+    cursor: pointer;
+    box-shadow: 2px 2px;
+}
+
+.score_board{
+    display: flex;
+    justify-content: center;
+}
+.score{
+   margin-left: 4rem;
+   margin-right: 4rem;
+   margin-bottom: 2rem;
+}
+p{
+    font-size: 1.89rem;
+    font-family: cursive;
+    font-weight: 100px;
+}
+.msg_box{
+    display: flex;
+    justify-content: center;
+}
+#msg{
+    font-family: cursive;
+    border: 2px solid black;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 20px;
+    box-shadow: 2px 2px;
+}
