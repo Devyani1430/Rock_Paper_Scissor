@@ -8,13 +8,15 @@ This repository contains a simple Rock, Paper, Scissors game built using HTML, C
 * CSS: Styling of the game elements
 * JavaScript: Game logic, user interaction, and result determination
 
+
+![Image description](screenshot.png)
+
 ### How to Play
 1. Open the `index.html` file in a web browser.
 2. Click on one of the options: Rock, Paper, or Scissors.
 3. The computer will randomly select an option.
 4. The winner is determined based on the classic Rock, Paper, Scissors rules.
 
-![Image description](screenshot.png)
 
 ### Game Logic
 The JavaScript code implements the following logic:
